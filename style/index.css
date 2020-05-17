@@ -1,1 +1,167 @@
 /* Add CSS styling here */
+.mainHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: grey;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 10px;
+    color: coral;
+  }
+  h2 {
+    color: coral;
+  }
+  .navDiv {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    border-radius: 25%;
+  }
+  #indexImgMain {
+    width: 50%;
+    height: 500px;
+  }
+  #secondaryHeader {
+    display: flex;
+    justify-content: center;
+  }
+  #headerImg {
+    background-image: url("https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    height: 400px;
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    text-align: center;
+    color: coral;
+    border: 1px solid black;
+    border-radius: 15%;
+    margin: 20px;
+  }
+  #headImgOvrlay {
+    font-size: 50px;
+  }
+  #overlayText {
+    color: coral;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #indexGallery {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  .galleryContainer {
+    display:flex;
+    justify-content:center;
+    align-content:space-around;
+    align-items:center;
+  }
+  .galleryImgIndex {
+    border: 5px dotted coral;
+    padding: 5px;
+    margin: 5px;
+  }
+  footer {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    border-radius: 10%;
+    margin: 10px;
+    background: grey;
+    color: coral;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .footerButton {
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+  }
+  .aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content:center;
+    border: 5px dotted coral;
+  }
+  .aboutDiv {
+    border: 5px dotted coral;
+    color:blueviolet;
+    font-size: 25px;
+    width:20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding:10px;
+    margin: 10px;
+  }
+  #contactIconContainer {
+    border: 5px dotted coral;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  i {
+    font-size: 100px;
+    margin:50px;
+  }
+  .icons {
+    color: coral;
+    font-weight:bold;
+    font-size: 50px;
+  }
+  @media(max-width:800px) {
+    button {
+      background-color:aqua;
+      width:25%;
+      height:20%;
+    }
+    button:hover {
+      background-color:aquamarine;
+    }
+    #projectButton {
+      width:95%;
+      height:85%;
+    }
+    .aboutContent {
+      flex-direction:row;
+      justify-content:flex-start;
+      align-items:stretch;
+    }
+    #indexGallery {
+      flex-direction:column;
+    }
+    i {
+      font-size:10rem;
+    }
+    img:hover {
+      opacity:0.5;
+    }
+    section.galleryContainer p {
+      color:coral;
+    }
+  }
+  @media(max-width:500px) {
+    header {
+      background-color:blue;
+  
+    }
+    #headerImg {
+      border: 5px dotted coral;
+    }
+  }
